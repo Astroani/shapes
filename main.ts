@@ -1,3 +1,17 @@
-basic.forever(function () {
-	
+input.onButtonPressed(Button.A, function () {
+    turtle.forward(4)
+    turtle.turnRight()
+    turtle.forward(4)
 })
+turtle.forward(2)
+turtle.pen(TurtlePenMode.Down)
+turtle.turnLeft()
+turtle.forward(2)
+turtle.turnLeft()
+turtle.forward(4)
+turtle.turnLeft()
+turtle.forward(4)
+turtle.turnLeft()
+turtle.forward(4)
+turtle.turnLeft()
+turtle.forward(1)
